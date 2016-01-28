@@ -1,0 +1,80 @@
+/*.newContainer{
+	width: 1024px !important;
+}*/
+
+.imgside{
+	float:left;
+	margin:0;
+	padding:0;
+	display: block;
+	position: relative;
+	/*background: url('../images/sidebar.png');
+	height: 100%;*/
+}
+
+.imgtop{
+	float:left;
+	margin:0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+
+.navigation{
+	position: absolute;
+	display: block;
+	top: 22%;
+}
+
+.navigation ul.navList{
+
+	color: #fff;
+	margin: 10px 0px 10px 10px;
+}
+
+.navigation ul.navList li{
+	/*padding:20px;*/
+}
+
+.navigation ul.navList li:first-child{
+	margin-top: 15px;
+	padding-top:0px;
+}
+
+ .profile{
+	position: absolute;
+	right:2%;
+	top:0;
+	width: 75px;
+	height: 75px;
+	padding-left: 10px;
+	/*border: 1px solid #fff;*/
+}
+
+.profile-area{
+	position: relative;
+}
+
+.profile-img{
+	position: absolute;
+	top: 12px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: url(http://placekitten.com/g/50/50);
+}
+
+.profile-area .profile-img .caretDown{
+	position: absolute;
+	right: -15px;
+	top: 15px;
+	color: #fff;
+}
+
+#dropdownPanel{
+	position: absolute;
+	right: 2%;
+	width: 120px;
+	height: 90px;
+	border: 1px solid #000;
+}
